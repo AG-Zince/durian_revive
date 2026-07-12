@@ -54,15 +54,39 @@
             box-shadow: 0 10px 30px -10px rgba(34, 197, 94, 0.35);
             transform: translateY(-4px);
         }
-        .fancy-scrollbar::-webkit-scrollbar {
-            width: 6px;
+        
+        /* Modern Overlay Scrollbar (Globally Applied) */
+        html {
+            scrollbar-width: thin;
+            scrollbar-color: rgba(34, 197, 94, 0.4) transparent;
         }
-        .fancy-scrollbar::-webkit-scrollbar-track {
-            background: #f1f1f1;
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
         }
-        .fancy-scrollbar::-webkit-scrollbar-thumb {
-            background: #22c55e;
-            border-radius: 10px;
+        ::-webkit-scrollbar-track {
+            background: transparent; /* ซ้อนทับเนื้อหาอย่างไร้รอยต่อ */
+        }
+        ::-webkit-scrollbar-thumb {
+            background: rgba(22, 163, 74, 0.45); /* สีเขียวแบรนด์กึ่งโปร่งใส */
+            border-radius: 9999px;
+            border: 2px solid transparent;
+            background-clip: padding-box;
+            transition: background 0.3s ease;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(22, 163, 74, 0.8) !important;
+            border: 2px solid transparent;
+            background-clip: padding-box;
+        }
+
+        /* Gentle Float Animation for LINE CTA */
+        @keyframes gentleFloat {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-8px); }
+        }
+        .animate-float {
+            animation: gentleFloat 3s ease-in-out infinite;
         }
     </style>
 </head>
@@ -539,10 +563,9 @@
         </div>
     </section>
 
-    <!-- Summary Action Section (The Key Concept) -->
+    <!-- Summary Action Section (The Key Concept as pictured in image_499960.jpg) -->
     <section class="py-12 bg-gradient-to-b from-white to-slate-50">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <!-- Modified according to image_499960.jpg to be Solid Dark Gray background without gradient -->
             <div class="bg-slate-900 rounded-3xl p-8 sm:p-12 text-white shadow-xl relative overflow-hidden text-center">
                 <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:16px_16px]"></div>
                 <div class="relative z-10 space-y-6">
@@ -574,7 +597,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-10">
                 <span class="text-xs font-bold text-brand-600 tracking-wider uppercase bg-brand-50 px-3 py-1.5 rounded-full">Application Schedule</span>
-                <h2 class="text-2xl sm:text-3xl font-bold mt-3 text-slate-800">ตารางโปรแกรมการใช้ชุดผลิตภัณฑ์ <span class="text-brand-600">"ฟื้นต้น"</span> (แบบกระชับ)</h2>
+                <h2 class="text-2xl sm:text-3xl font-bold mt-3 text-slate-800">ตารางโปรแกรมการใช้ชุดผลิตภัณฑ์ "ฟื้นต้น" (แบบกระชับ)</h2>
                 <p class="text-slate-500 text-xs sm:text-sm mt-1">สรุปวิธีการใช้ อัตราส่วน และความถี่ในการบำรุงรักษาพืชทั้งทางดินและทางใบเพื่อความสะดวกและรวดเร็ว</p>
             </div>
 
@@ -689,7 +712,7 @@
         </div>
     </section>
 
-    <!-- Contact & Community Section (Modified to match image_49a101.png layout with added live links) -->
+    <!-- Contact & Community Section (Matching image_49a101.png layout) -->
     <section class="py-16 bg-slate-100 border-t border-slate-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-12">
@@ -772,6 +795,14 @@
             <p>© 2026 โปรแกรมจัดการฟื้นฟูสภาพต้นพืชเชิงลึกแบบครบชุด สงวนลิขสิทธิ์ความรู้เกษตรกรรมร่วมสมัย อ.ภพ</p>
         </div>
     </footer>
+
+    <!-- Floating LINE Contact Button (Updated to stack icon on top and text on bottom) -->
+    <div class="fixed bottom-6 right-6 z-50 animate-float">
+        <a href="https://line.me/ti/p/~@tippruksa" target="_blank" rel="noopener noreferrer" class="flex flex-col items-center justify-center gap-1 bg-[#06C755] hover:bg-[#05b34c] text-white py-3 px-4 w-28 sm:w-32 rounded-2xl shadow-[0_10px_25px_rgba(6,199,85,0.45)] transition-all duration-300 hover:scale-105 active:scale-95 group border border-emerald-400/20 text-center">
+            <i class="fa-brands fa-line text-3xl sm:text-4xl text-white group-hover:rotate-12 transition-transform"></i>
+            <span class="text-[10px] sm:text-xs font-black tracking-wide leading-tight">สั่งซื้อผลิตภัณฑ์</span>
+        </a>
+    </div>
 
     <!-- INTERACTIVE JAVASCRIPT LOGIC -->
     <script>
