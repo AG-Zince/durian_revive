@@ -65,10 +65,10 @@
             height: 8px;
         }
         ::-webkit-scrollbar-track {
-            background: transparent; /* ซ้อนทับเนื้อหาอย่างไร้รอยต่อ */
+            background: transparent;
         }
         ::-webkit-scrollbar-thumb {
-            background: rgba(22, 163, 74, 0.45); /* สีเขียวแบรนด์กึ่งโปร่งใส */
+            background: rgba(22, 163, 74, 0.45);
             border-radius: 9999px;
             border: 2px solid transparent;
             background-clip: padding-box;
@@ -117,7 +117,6 @@
 
     <!-- Hero Banner & Concept Overview -->
     <header class="relative overflow-hidden text-white py-16 px-4 sm:px-6 lg:px-8" style="background-image: linear-gradient(rgba(15, 23, 42, 0.85), rgba(6, 78, 59, 0.95)), url('https://lh3.googleusercontent.com/d/1l8Vtyamd4YJNnNRX2CuuCJD0tk2wayp9'); background-size: cover; background-position: center;">
-        <!-- Background Pattern -->
         <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#22c55e_1px,transparent_1px)] [background-size:16px_16px]"></div>
         <div class="absolute -top-40 -right-40 w-96 h-96 bg-brand-500/20 rounded-full blur-3xl"></div>
         <div class="absolute -bottom-40 -left-40 w-96 h-96 bg-emerald-500/20 rounded-full blur-3xl"></div>
@@ -177,7 +176,7 @@
                 <div>
                     <span class="text-xs font-bold text-brand-600 tracking-wider uppercase bg-brand-50 px-3 py-1.5 rounded-full">Products Showcase</span>
                     <h2 class="text-3xl font-bold mt-2">ข้อมูลผลิตภัณฑ์ในชุดผลิตภัณฑ์ <span class="text-[#22c55e] font-bold">"ฟื้นต้น"</span></h2>
-                    <p class="text-slate-500 text-sm mt-1">ศึกษาความต่างและลักษณะเนื้อสารของแต่ละโปรดักส์ได้ผ่านสลักสลับด้านล่าง</p>
+                    <p class="text-slate-500 text-sm mt-1">ศึกษาความต่างและลักษณะเนื้อสารของแต่ละโปรดักส์ได้ผ่านตัวเลือกด้านล่าง</p>
                 </div>
                 <!-- Dynamic Filter Buttons -->
                 <div class="flex flex-wrap gap-2 text-xs font-semibold">
@@ -421,7 +420,7 @@
                         </div>
                     </div>
 
-                    <!-- ไมโครชีลด์ -->
+                    <!-- ไมโครชีลด์ (Microshield Updated) -->
                     <div class="bg-white rounded-3xl border border-slate-200 shadow-sm glow-card transition-all duration-300 overflow-hidden flex flex-col justify-between">
                         <div class="relative group bg-slate-50 h-56 flex flex-col justify-between overflow-hidden">
                             <img id="prod-img-microshield" src="https://lh3.googleusercontent.com/d/1Dy3BgnFOFP-HmjJlUQS_nP1L7hvSG49p" class="w-full h-full object-contain p-4 transition-all duration-300" alt="ไมโครชีลด์" onerror="this.src='https://placehold.co/300?text=Product+Image'">
@@ -438,7 +437,7 @@
                         <div class="p-4 flex-grow space-y-2">
                             <h4 class="font-bold text-slate-900 text-sm">ไมโครชีลด์</h4>
                             <p class="text-[11px] text-slate-500 leading-relaxed font-medium">
-                                เคลือบและปกป้องผิวเซลล์พืชจากสิ่งแวดล้อม (ขวดสีขาว-ฟ้าขวาสุด)
+                                เคลือบและปกป้องผิวเซลล์พืชจากสิ่งแวดล้อม เสริมสร้างภูมิคุ้มกัน
                             </p>
                         </div>
                         <div class="bg-slate-50 px-4 py-2.5 border-t border-slate-100 flex items-center justify-between text-[11px] font-bold">
@@ -460,7 +459,7 @@
                 </div>
 
                 <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
-                    <!-- ลูกหนามจัน 5-7-7 -->
+                    <!-- ลูกหนามจัน 5-7-7 (Removed (กระสอบส้ม)) -->
                     <div class="bg-white rounded-3xl border border-slate-200 shadow-sm glow-card p-6 flex flex-col justify-between transition-all duration-300">
                         <div class="space-y-4">
                             <!-- Dual Image Container -->
@@ -480,7 +479,7 @@
                             <div class="space-y-2">
                                 <h4 class="text-lg font-bold text-slate-900">ลูกหนามจัน 5-7-7</h4>
                                 <p class="text-xs text-slate-500 leading-relaxed font-medium">
-                                    ปุ๋ยอินทรีย์เคมีเม็ด (กระสอบส้ม) เน้นฟอสฟอรัสสูง (7%) ร่วมกับอินทรียวัตถุ เพื่อช่วยปรับโครงสร้างดินให้โปร่งและเร่งการแผ่กระจายของระบบรากใหม่
+                                    ปุ๋ยอินทรีย์เคมีเม็ด เน้นฟอสฟอรัสสูง (7%) ร่วมกับอินทรียวัตถุ เพื่อช่วยปรับโครงสร้างดินให้โปร่งและเร่งการแผ่กระจายของระบบรากใหม่
                                 </p>
                             </div>
                         </div>
@@ -506,7 +505,7 @@
                                         📦 บรรจุภัณฑ์
                                     </button>
                                     <button onclick="toggleProductImage('sforcx', 'substance', 'https://lh3.googleusercontent.com/d/1QxlNGLs3B3HiPo0g3P3FJWg4IawMDpKE')" id="tab-sforcx-substance" class="px-2.5 py-1 text-[10px] font-bold rounded-full bg-white/95 text-slate-700 shadow-md transition-all">
-                                        🧪 ลักษณะสาร
+                                        🧪 ลักษณะผง
                                     </button>
                                 </div>
                             </div>
@@ -518,7 +517,7 @@
                                 </p>
                             </div>
                         </div>
-                        
+
                         <div class="mt-6 pt-4 border-t border-slate-100 space-y-2">
                             <span class="text-[9px] uppercase font-bold text-slate-400 block tracking-wider">วิธีการและอัตราแนะนำ</span>
                             <div class="text-xs text-brand-800 bg-brand-50 p-3 rounded-xl border border-brand-100 flex items-start gap-2">
@@ -528,18 +527,18 @@
                         </div>
                     </div>
 
-                    <!-- ทิพย์พฤกษ์-แมกซัลเฟต -->
+                    <!-- ทิพย์พฤกษ์-แมกซัลเฟต (Removed (กระสอบขาวขวาสุด)) -->
                     <div class="bg-white rounded-3xl border border-slate-200 shadow-sm glow-card p-6 flex flex-col justify-between transition-all duration-300">
                         <div class="space-y-4">
                             <!-- Dual Image Container -->
                             <div class="relative group bg-slate-50 border border-slate-200 h-64 rounded-2xl flex flex-col justify-between overflow-hidden">
-                                <img id="prod-img-magsulfate" src="https://lh3.googleusercontent.com/d/1BjKOORHcQ5bcdDfhXHhLDm-4NsCvorMb" class="w-full h-full object-contain p-4 transition-all duration-300" alt="ทิพย์พฤกษ์-แมกซัลเฟต" onerror="this.src='https://placehold.co/300?text=Product+Image'">
+                                <img id="prod-img-magnesium" src="https://lh3.googleusercontent.com/d/1BjKOORHcQ5bcdDfhXHhLDm-4NsCvorMb" class="w-full h-full object-contain p-4 transition-all duration-300" alt="ทิพย์พฤกษ์-แมกซัลเฟต" onerror="this.src='https://placehold.co/300?text=Product+Image'">
                                 <!-- Tabs -->
                                 <div class="absolute bottom-3 left-3 right-3 flex justify-center gap-1.5 z-10">
-                                    <button onclick="toggleProductImage('magsulfate', 'bottle', 'https://lh3.googleusercontent.com/d/1BjKOORHcQ5bcdDfhXHhLDm-4NsCvorMb')" id="tab-magsulfate-bottle" class="px-2.5 py-1 text-[10px] font-bold rounded-full bg-brand-600 text-white shadow-md transition-all">
+                                    <button onclick="toggleProductImage('magnesium', 'bottle', 'https://lh3.googleusercontent.com/d/1BjKOORHcQ5bcdDfhXHhLDm-4NsCvorMb')" id="tab-magnesium-bottle" class="px-2.5 py-1 text-[10px] font-bold rounded-full bg-brand-600 text-white shadow-md transition-all">
                                         📦 กระสอบขาว
                                     </button>
-                                    <button onclick="toggleProductImage('magsulfate', 'substance', 'https://lh3.googleusercontent.com/d/1p8qmyeyvE6CZMHrS8IxsofO1xp3JFJGO')" id="tab-magsulfate-substance" class="px-2.5 py-1 text-[10px] font-bold rounded-full bg-white/95 text-slate-700 shadow-md transition-all">
+                                    <button onclick="toggleProductImage('magnesium', 'substance', 'https://lh3.googleusercontent.com/d/1p8qmyeyvE6CZMHrS8IxsofO1xp3JFJGO')" id="tab-magnesium-substance" class="px-2.5 py-1 text-[10px] font-bold rounded-full bg-white/95 text-slate-700 shadow-md transition-all">
                                         🧪 ลักษณะเกล็ด
                                     </button>
                                 </div>
@@ -548,16 +547,16 @@
                             <div class="space-y-2">
                                 <h4 class="text-lg font-bold text-slate-900">ทิพย์พฤกษ์-แมกซัลเฟต</h4>
                                 <p class="text-xs text-slate-500 leading-relaxed font-medium">
-                                    ปุ๋ยเคมีแมกนีเซียมซัลเฟตชนิดเกล็ด (กระสอบขาวขวาสุด) ปลดปล่อยสารอาหารลงสู่ดินอย่างเหมาะสมเพื่อบำรุงระยะยาว
+                                    ปุ๋ยเคมีแมกนีเซียมซัลเฟตชนิดเกล็ด ใส่ทางดินใน อัตรา การใช้ 3 ขีด/ต้น ทุกเดือน เพื่อสร้างความต่อเนื่องในการดูดซึมแมกนีเซียมไปสร้างใบเขียวระยะยาว
                                 </p>
                             </div>
                         </div>
-                        
+
                         <div class="mt-6 pt-4 border-t border-slate-100 space-y-2">
                             <span class="text-[9px] uppercase font-bold text-slate-400 block tracking-wider">วิธีการและอัตราแนะนำ</span>
                             <div class="text-xs text-brand-800 bg-brand-50 p-3 rounded-xl border border-brand-100 flex items-start gap-2">
                                 <i class="fa-solid fa-circle-info text-brand-600 mt-0.5"></i>
-                                <span>ใส่ทางดินในอัตราการใช้ 3 ขีด/ต้น ทุกเดือน เพื่อสร้างความต่อเนื่องในการดูดซึมแมกนีเซียมไปสร้างใบเขียวระยะยาว</span>
+                                <span>ใส่ทางดินในอัตราการใช้ 3 ขีด/ต้น ทุกเดือนเพื่อบำรุงต้นต่อเนื่อง</span>
                             </div>
                         </div>
                     </div>
@@ -566,28 +565,34 @@
         </div>
     </section>
 
-    <!-- Summary Action Section (The Key Concept as pictured in image_499960.jpg) -->
-    <section class="py-12 bg-gradient-to-b from-white to-slate-50">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-slate-900 rounded-3xl p-8 sm:p-12 text-white shadow-xl relative overflow-hidden text-center">
-                <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:16px_16px]"></div>
-                <div class="relative z-10 space-y-6">
-                    <span class="text-[11px] font-bold tracking-widest uppercase text-brand-400 bg-brand-500/10 px-3 py-1 rounded-full border border-brand-500/20">หลักการสำคัญสูงสุด</span>
-                    <h3 class="text-2xl sm:text-3.5xl font-bold">"ซ่อมรากเก่า เร่งสร้างใบใหม่"</h3>
+    <!-- Concept Dashboard Section (As Reference image_499960.jpg in Solid Dark Gray) -->
+    <section class="py-12 bg-slate-100 border-t border-slate-200">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6">
+            <div class="bg-slate-900 text-white rounded-3xl p-8 md:p-12 shadow-2xl relative overflow-hidden border border-slate-700">
+                <div class="absolute inset-0 opacity-5 bg-[radial-gradient(#22c55e_1px,transparent_1px)] [background-size:16px_16px]"></div>
+                
+                <div class="relative z-10 text-center space-y-6">
+                    <span class="px-4 py-1.5 rounded-full text-xs font-bold bg-brand-500/20 text-brand-400 border border-brand-500/30 inline-block">
+                        หลักการสำคัญสูงสุด
+                    </span>
                     
-                    <p class="text-slate-300 text-sm sm:text-base leading-relaxed max-w-3xl mx-auto font-medium">
+                    <h3 class="text-2xl sm:text-3xl font-extrabold tracking-tight">
+                        "ซ่อมรากเก่า เร่งสร้างใบใหม่"
+                    </h3>
+                    
+                    <p class="text-slate-300 text-sm sm:text-base leading-relaxed max-w-4xl mx-auto">
                         การจัดการในระยะฟื้นต้นนี้คือการ "ซ่อมรากเก่า เร่งสร้างใบใหม่" โดยทางดินจะใช้ S-FORCX 100 และ ลูกหนามจัน 5-7-7 เพื่อเปิดดินและแตกรากฝอยชุดใหม่ขึ้นมาดึงปุ๋ย ในขณะที่ทางใบจะระดมฉีดพ่น ชุดผลิตภัณฑ์ "ฟื้นต้น" เพื่ออัดพลังงานและกรดอะมิโนตรงเข้าสู่ใบ ช่วยให้ต้นพืชสะบัดใบร่วง ปลุกตาแตกยอดใหม่ได้อย่างพร้อมเพรียงกันครับ
                     </p>
-
-                    <div class="pt-4 flex flex-wrap justify-center gap-3">
-                        <span class="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-xs font-semibold text-brand-300">
-                            <i class="fa-solid fa-shield text-brand-500 mr-1.5"></i> เสริมสร้างเซลล์ต้นพืช
+                    
+                    <div class="pt-6 flex flex-wrap justify-center gap-4 text-xs font-medium">
+                        <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-800 border border-slate-700 text-slate-300">
+                            <i class="fa-solid fa-shield-halved text-brand-500"></i> เสริมสร้างเซลล์ต้นพืช
                         </span>
-                        <span class="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-xs font-semibold text-brand-300">
-                            <i class="fa-solid fa-tree text-brand-500 mr-1.5"></i> กระตุ้นยอดพุ่งดั่งพายุ
+                        <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-800 border border-slate-700 text-slate-300">
+                            <i class="fa-solid fa-wind text-green-500"></i> กระตุ้นยอดพุ่งดั่งพายุ
                         </span>
-                        <span class="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-xs font-semibold text-brand-300">
-                            <i class="fa-solid fa-mountain text-brand-500 mr-1.5"></i> รากเดินอย่างอิสระ
+                        <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-800 border border-slate-700 text-slate-300">
+                            <i class="fa-solid fa-circle-nodes text-emerald-500"></i> รากเดินอย่างอิสระ
                         </span>
                     </div>
                 </div>
@@ -595,262 +600,242 @@
         </div>
     </section>
 
-    <!-- Concise Fertilizer Schedule Section -->
+    <!-- Compact Fertilizer Table Program Section -->
     <section class="py-12 bg-white border-t border-slate-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto mb-10">
-                <span class="text-xs font-bold text-brand-600 tracking-wider uppercase bg-brand-50 px-3 py-1.5 rounded-full">Application Schedule</span>
-                <h2 class="text-2xl sm:text-3xl font-bold mt-3 text-slate-800">ตารางโปรแกรมการใช้ชุดผลิตภัณฑ์ "ฟื้นต้น" (แบบกระชับ)</h2>
-                <p class="text-slate-500 text-xs sm:text-sm mt-1">สรุปวิธีการใช้ อัตราส่วน และความถี่ในการบำรุงรักษาพืชทั้งทางดินและทางใบเพื่อความสะดวกและรวดเร็ว</p>
+            <div class="text-center mb-8">
+                <span class="text-xs font-bold text-brand-600 tracking-wider uppercase bg-brand-50 px-3 py-1.5 rounded-full">Easy Program</span>
+                <h2 class="text-2xl sm:text-3xl font-bold mt-2">ตารางโปรแกรมการใช้ชุดผลิตภัณฑ์ "ฟื้นต้น" (แบบกระชับ)</h2>
+                <p class="text-slate-500 text-sm mt-1">สรุปสาระสำคัญ อัตราส่วน และวิธีการนำไปใช้ปฏิบัติได้ทันที</p>
             </div>
 
-            <!-- Responsive Table Container -->
-            <div class="overflow-x-auto rounded-2xl border border-slate-200 shadow-sm">
-                <table class="min-w-full divide-y divide-slate-200 text-left text-xs sm:text-sm">
-                    <thead class="bg-slate-50 text-slate-700 font-semibold">
-                        <tr>
-                            <th class="px-4 py-3.5 sm:px-6">วิธีบำรุง</th>
-                            <th class="px-4 py-3.5 sm:px-6">ผลิตภัณฑ์</th>
-                            <th class="px-4 py-3.5 sm:px-6">ภาพ</th>
-                            <th class="px-4 py-3.5 sm:px-6">อัตราการใช้</th>
-                            <th class="px-4 py-3.5 sm:px-6">ความถี่ / ข้อแนะนำ</th>
-                        </tr>
-                    </thead>
-                    <tbody class="divide-y divide-slate-200 bg-white text-slate-600">
-                        <!-- Row 1: Adjuvant -->
-                        <tr class="hover:bg-slate-50/50 transition">
-                            <td class="px-4 py-4 sm:px-6 font-bold text-brand-700 whitespace-nowrap">
-                                <i class="fa-solid fa-droplet mr-1.5"></i> ทางใบ (ตัวนำพา)
-                            </td>
-                            <td class="px-4 py-4 sm:px-6 font-semibold text-slate-900">ทิพย์พฤกษาฯ</td>
-                            <td class="px-4 py-4 sm:px-6"><img src="https://lh3.googleusercontent.com/d/1X454pE9dhcs5p5oQGNJ7e9XnReaQPknT" class="w-10 h-10 object-contain rounded-md" alt="ทิพย์พฤกษา"></td>
-                            <td class="px-4 py-4 sm:px-6 font-bold text-brand-800">50 ซีซี</td>
-                            <td class="px-4 py-4 sm:px-6 text-xs leading-relaxed">ผสมตัวแรกสุดทุกครั้ง เพื่อลดแรงตึงผิว</td>
-                        </tr>
-                        <!-- Row 2: Foliar Main -->
-                        <tr class="hover:bg-slate-50/50 transition bg-emerald-50/10">
-                            <td class="px-4 py-4 sm:px-6 font-bold text-emerald-700 whitespace-nowrap" rowspan="3">
-                                <i class="fa-solid fa-leaf mr-1.5"></i> ทางใบ (ชุดหลัก)
-                            </td>
-                            <td class="px-4 py-4 sm:px-6 font-semibold text-slate-900">เมทัล-แมกซ์</td>
-                            <td class="px-4 py-4 sm:px-6"><img src="https://lh3.googleusercontent.com/d/10NYr2wqPKgISdfFXuwU-jGAHQ2hwn4o8" class="w-10 h-10 object-contain rounded-md" alt="เมทัล-แมกซ์"></td>
-                            <td class="px-4 py-4 sm:px-6 font-bold text-brand-800">200 ซีซี</td>
-                            <td class="px-4 py-4 sm:px-6 text-xs leading-relaxed" rowspan="3">
-                                <strong class="text-slate-800">แนะนำฉีดช่วงเช้า ทุก 7-10 วัน</strong><br>
-                                กระตุ้นยอดใหม่พุ่ง แผ่สยาย
-                            </td>
-                        </tr>
-                        <tr class="hover:bg-slate-50/50 transition bg-emerald-50/10">
-                            <td class="px-4 py-4 sm:px-6 font-semibold text-slate-900">เฮอริเคน</td>
-                            <td class="px-4 py-4 sm:px-6"><img src="https://lh3.googleusercontent.com/d/16Rs14-iyGCovYdGAfF1cMdBuHf-w47A0" class="w-10 h-10 object-contain rounded-md" alt="เฮอริเคน"></td>
-                            <td class="px-4 py-4 sm:px-6 font-bold text-brand-800">100 - 200 ซีซี</td>
-                        </tr>
-                        <tr class="hover:bg-slate-50/50 transition bg-emerald-50/10">
-                            <td class="px-4 py-4 sm:px-6 font-semibold text-slate-900">บีแมนนิทอล</td>
-                            <td class="px-4 py-4 sm:px-6"><img src="https://lh3.googleusercontent.com/d/1IQaE-Ow8BuSka__lgprXxSTB2IvfAg4l" class="w-10 h-10 object-contain rounded-md" alt="บีแมนนิทอล"></td>
-                            <td class="px-4 py-4 sm:px-6 font-bold text-brand-800">100 - 200 ซีซี</td>
-                        </tr>
-                        <!-- Row 3: Foliar Sub -->
-                        <tr class="hover:bg-slate-50/50 transition">
-                            <td class="px-4 py-4 sm:px-6 font-bold text-blue-700 whitespace-nowrap" rowspan="4">
-                                <i class="fa-solid fa-shield-halved mr-1.5"></i> ทางใบ (ชุดเสริม)
-                            </td>
-                            <td class="px-4 py-4 sm:px-6 font-semibold text-slate-900">คีเลตแคล-บี</td>
-                            <td class="px-4 py-4 sm:px-6"><img src="https://lh3.googleusercontent.com/d/1wctONn8it8-z-JblKn8Yui2c-Jgao4s5" class="w-10 h-10 object-contain rounded-md" alt="คีเลตแคล-บี"></td>
-                            <td class="px-4 py-4 sm:px-6 font-bold text-brand-800">200 ซีซี</td>
-                            <td class="px-4 py-4 sm:px-6 text-xs leading-relaxed" rowspan="4">
-                                <strong class="text-slate-800">ฉีดพ่นเพื่อเสริมภูมิคุ้มกัน</strong><br>
-                                ช่วยโครงสร้างกิ่ง-ข้อต่อให้แข็งแรง
-                            </td>
-                        </tr>
-                        <tr class="hover:bg-slate-50/50 transition">
-                            <td class="px-4 py-4 sm:px-6 font-semibold text-slate-900">ซิงค์เทอร์โบ</td>
-                            <td class="px-4 py-4 sm:px-6"><img src="https://lh3.googleusercontent.com/d/13voWpbxCnVd-h6uhVHE0HcoQPNWEhQdf" class="w-10 h-10 object-contain rounded-md" alt="ซิงค์เทอร์โบ"></td>
-                            <td class="px-4 py-4 sm:px-6 font-bold text-brand-800">70 - 100 ซีซี</td>
-                        </tr>
-                        <tr class="hover:bg-slate-50/50 transition">
-                            <td class="px-4 py-4 sm:px-6 font-semibold text-slate-900">CuTex</td>
-                            <td class="px-4 py-4 sm:px-6"><img src="https://lh3.googleusercontent.com/d/17m-ZHqW1yfUgQRpNnrIuo7SOPa0wwHBM" class="w-10 h-10 object-contain rounded-md" alt="CuTex"></td>
-                            <td class="px-4 py-4 sm:px-6 font-bold text-brand-800">50 ซีซี</td>
-                        </tr>
-                        <tr class="hover:bg-slate-50/50 transition">
-                            <td class="px-4 py-4 sm:px-6 font-semibold text-slate-900">ไมโครชีลด์</td>
-                            <td class="px-4 py-4 sm:px-6"><img src="https://lh3.googleusercontent.com/d/1Dy3BgnFOFP-HmjJlUQS_nP1L7hvSG49p" class="w-10 h-10 object-contain rounded-md" alt="ไมโครชีลด์"></td>
-                            <td class="px-4 py-4 sm:px-6 font-bold text-brand-800">200 ซีซี</td>
-                        </tr>
-                        <!-- Row 4: Soil -->
-                        <tr class="hover:bg-slate-50/50 transition bg-amber-50/10">
-                            <td class="px-4 py-4 sm:px-6 font-bold text-amber-700 whitespace-nowrap" rowspan="3">
-                                <i class="fa-solid fa-mountain mr-1.5"></i> บำรุงทางดิน
-                            </td>
-                            <td class="px-4 py-4 sm:px-6 font-semibold text-slate-900">ลูกหนามจัน 5-7-7</td>
-                            <td class="px-4 py-4 sm:px-6"><img src="https://lh3.googleusercontent.com/d/1PJA2YJpLw0GhKTm-wYo4GAf9-QkX7wWq" class="w-10 h-10 object-contain rounded-md" alt="ลูกหนามจัน"></td>
-                            <td class="px-4 py-4 sm:px-6 font-bold text-brand-800">1 กก. / ต้น</td>
-                            <td class="px-4 py-4 sm:px-6 text-xs leading-relaxed">หว่านรอบทรงพุ่ม เพื่อดึงขยายแนวราก</td>
-                        </tr>
-                        <tr class="hover:bg-slate-50/50 transition bg-amber-50/10">
-                            <td class="px-4 py-4 sm:px-6 font-semibold text-slate-900">S-FORCX 100</td>
-                            <td class="px-4 py-4 sm:px-6"><img src="https://lh3.googleusercontent.com/d/1zRT7i7ECJv-5vwA8b5spW7Rz11vohtZw" class="w-10 h-10 object-contain rounded-md" alt="S-FORCX 100"></td>
-                            <td class="px-4 py-4 sm:px-6 font-bold text-brand-800">100-250 กรัม / ไร่</td>
-                            <td class="px-4 py-4 sm:px-6 text-xs leading-relaxed">ผสมน้ำ พ่น/ราดดิน ทุก 2-3 เดือน</td>
-                        </tr>
-                        <tr class="hover:bg-slate-50/50 transition bg-amber-50/10">
-                            <td class="px-4 py-4 sm:px-6 font-semibold text-slate-900">แมกซัลเฟต</td>
-                            <td class="px-4 py-4 sm:px-6"><img src="https://lh3.googleusercontent.com/d/1BjKOORHcQ5bcdDfhXHhLDm-4NsCvorMb" class="w-10 h-10 object-contain rounded-md" alt="แมกซัลเฟต"></td>
-                            <td class="px-4 py-4 sm:px-6 font-bold text-brand-800">3 ขีด / ต้น</td>
-                            <td class="px-4 py-4 sm:px-6 text-xs leading-relaxed">ใส่ดินทุกเดือน เสริมสร้างใบเขียว</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <!-- Helpful Tips Card -->
-            <div class="mt-5 p-4 bg-emerald-50 border border-emerald-100 rounded-2xl flex items-start gap-3">
-                <i class="fa-solid fa-lightbulb text-emerald-600 mt-0.5 text-lg"></i>
-                <div class="text-xs text-slate-600 leading-relaxed">
-                    <strong class="text-emerald-800 block mb-0.5 font-bold">เทคนิคสำคัญในการฟื้นต้น:</strong>
-                    ควรทำควบคู่กันทั้ง "ทางดิน" เพื่อซ่อมฟื้นคืนชีวิตระบบรากให้เดินดีขึ้น และ "ทางใบ" เพื่อระดมป้อนสารอาหารทางตรงให้พืชนำไปใช้สร้างใบทันทีโดยไม่ต้องรอกลไกการทำงานของรากที่ยังฟื้นตัวไม่สมบูรณ์
+            <!-- Responsive Table Frame -->
+            <div class="bg-white rounded-3xl border border-slate-200 shadow-md overflow-hidden">
+                <div class="overflow-x-auto">
+                    <table class="min-w-full divide-y divide-slate-200 text-left text-sm">
+                        <thead class="bg-slate-50 font-bold text-slate-700 text-xs uppercase tracking-wider">
+                            <tr>
+                                <th class="px-6 py-4">ลำดับ</th>
+                                <th class="px-6 py-4">ภาพผลิตภัณฑ์</th>
+                                <th class="px-6 py-4">ชื่อผลิตภัณฑ์</th>
+                                <th class="px-6 py-4">ประเภทการบำรุง</th>
+                                <th class="px-6 py-4 text-emerald-700">อัตราการใช้ ต่อน้ำ 200 ลิตร</th>
+                                <th class="px-6 py-4">แนวทาง / วิธีการใช้งานย่อ</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-200 text-slate-600 font-medium">
+                            <tr class="hover:bg-slate-50 transition">
+                                <td class="px-6 py-4">1</td>
+                                <td class="px-6 py-4"><img src="https://lh3.googleusercontent.com/d/1X454pE9dhcs5p5oQGNJ7e9XnReaQPknT" class="h-10 w-10 object-contain rounded border bg-slate-50" alt="ทิพย์พฤกษา" onerror="this.src='https://placehold.co/40'"></td>
+                                <td class="px-6 py-4 text-slate-900 font-semibold">ทิพย์พฤกษา สารเพิ่มประสิทธิภาพการดูดซึม</td>
+                                <td class="px-6 py-4"><span class="px-2 py-1 rounded text-xs bg-slate-100 text-slate-700">สารเพิ่มประสิทธิภาพ</span></td>
+                                <td class="px-6 py-4 text-brand-700 font-bold">50 ซีซี</td>
+                                <td class="px-6 py-4 text-xs">ผสมเป็นตัวแรกสุดเพื่อช่วยแผ่กระจายและนำสารอาหารซึมไวขึ้น</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition">
+                                <td class="px-6 py-4">2</td>
+                                <td class="px-6 py-4"><img src="https://lh3.googleusercontent.com/d/10NYr2wqPKgISdfFXuwU-jGAHQ2hwn4o8" class="h-10 w-10 object-contain rounded border bg-slate-50" alt="เมทัล-แมกซ์" onerror="this.src='https://placehold.co/40'"></td>
+                                <td class="px-6 py-4 text-slate-900 font-semibold">เมทัล-แมกซ์</td>
+                                <td class="px-6 py-4"><span class="px-2 py-1 rounded text-xs bg-green-100 text-green-800">ทางใบ (ชุดหลัก)</span></td>
+                                <td class="px-6 py-4 text-brand-700 font-bold">200 ซีซี</td>
+                                <td class="px-6 py-4 text-xs">เร่งกระบวนการสร้างใบใหม่ ปรับปรุงใบเก่าให้เขียวเข้มเร่งด่วน</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition">
+                                <td class="px-6 py-4">3</td>
+                                <td class="px-6 py-4"><img src="https://lh3.googleusercontent.com/d/16Rs14-iyGCovYdGAfF1cMdBuHf-w47A0" class="h-10 w-10 object-contain rounded border bg-slate-50" alt="เฮอริเคน" onerror="this.src='https://placehold.co/40'"></td>
+                                <td class="px-6 py-4 text-slate-900 font-semibold">เฮอริเคน</td>
+                                <td class="px-6 py-4"><span class="px-2 py-1 rounded text-xs bg-green-100 text-green-800">ทางใบ (ชุดหลัก)</span></td>
+                                <td class="px-6 py-4 text-brand-700 font-bold">100 - 200 ซีซี</td>
+                                <td class="px-6 py-4 text-xs">อะมิโนพร้อมใช้งาน ปรับสมดุล ฟื้นฟูเซลล์หลังเก็บเกี่ยวทันที</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition">
+                                <td class="px-6 py-4">4</td>
+                                <td class="px-6 py-4"><img src="https://lh3.googleusercontent.com/d/1IQaE-Ow8BuSka__lgprXxSTB2IvfAg4l" class="h-10 w-10 object-contain rounded border bg-slate-50" alt="บีแมนนิทอล" onerror="this.src='https://placehold.co/40'"></td>
+                                <td class="px-6 py-4 text-slate-900 font-semibold">บีแมนนิทอล</td>
+                                <td class="px-6 py-4"><span class="px-2 py-1 rounded text-xs bg-green-100 text-green-800">ทางใบ (ชุดหลัก)</span></td>
+                                <td class="px-6 py-4 text-brand-700 font-bold">100 - 200 ซีซี</td>
+                                <td class="px-6 py-4 text-xs">ช่วยนำพาเคลื่อนย้ายอาหารพลังงาน เพื่อนำไปสร้างยอดใบใหม่</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition">
+                                <td class="px-6 py-4">5</td>
+                                <td class="px-6 py-4"><img src="https://lh3.googleusercontent.com/d/1wctONn8it8-z-JblKn8Yui2c-Jgao4s5" class="h-10 w-10 object-contain rounded border bg-slate-50" alt="คีเลตแคล-บี" onerror="this.src='https://placehold.co/40'"></td>
+                                <td class="px-6 py-4 text-slate-900 font-semibold">คีเลตแคล-บี</td>
+                                <td class="px-6 py-4"><span class="px-2 py-1 rounded text-xs bg-blue-100 text-blue-800">ทางใบ (ชุดเสริม)</span></td>
+                                <td class="px-6 py-4 text-brand-700 font-bold">200 ซีซี</td>
+                                <td class="px-6 py-4 text-xs">สร้างผนังเซลล์ของพืชให้เหนียว แข็งแรง ป้องกันเปลือกและกิ่งฉีก</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition">
+                                <td class="px-6 py-4">6</td>
+                                <td class="px-6 py-4"><img src="https://lh3.googleusercontent.com/d/13voWpbxCnVd-h6uhVHE0HcoQPNWEhQdf" class="h-10 w-10 object-contain rounded border bg-slate-50" alt="ซิงค์เทอร์โบ" onerror="this.src='https://placehold.co/40'"></td>
+                                <td class="px-6 py-4 text-slate-900 font-semibold">ซิงค์เทอร์โบ</td>
+                                <td class="px-6 py-4"><span class="px-2 py-1 rounded text-xs bg-blue-100 text-blue-800">ทางใบ (ชุดเสริม)</span></td>
+                                <td class="px-6 py-4 text-brand-700 font-bold">70 - 100 ซีซี</td>
+                                <td class="px-6 py-4 text-xs">ส่งเสริมฮอร์โมน ยืดสัดส่วนข้อปล้อง ดึงใบอ่อนให้ออกเสมอภาค</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition">
+                                <td class="px-6 py-4">7</td>
+                                <td class="px-6 py-4"><img src="https://lh3.googleusercontent.com/d/17m-ZHqW1yfUgQRpNnrIuo7SOPa0wwHBM" class="h-10 w-10 object-contain rounded border bg-slate-50" alt="CuTex" onerror="this.src='https://placehold.co/40'"></td>
+                                <td class="px-6 py-4 text-slate-900 font-semibold">CuTex</td>
+                                <td class="px-6 py-4"><span class="px-2 py-1 rounded text-xs bg-blue-100 text-blue-800">ทางใบ (ชุดเสริม)</span></td>
+                                <td class="px-6 py-4 text-brand-700 font-bold">50 ซีซี</td>
+                                <td class="px-6 py-4 text-xs">เพิ่มภูมิคุ้มกันโรคพืช และความเสถียรในกระบวนการทำงานเซลล์</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition">
+                                <td class="px-6 py-4">8</td>
+                                <td class="px-6 py-4"><img src="https://lh3.googleusercontent.com/d/1Dy3BgnFOFP-HmjJlUQS_nP1L7hvSG49p" class="h-10 w-10 object-contain rounded border bg-slate-50" alt="ไมโครชีลด์" onerror="this.src='https://placehold.co/40'"></td>
+                                <td class="px-6 py-4 text-slate-900 font-semibold">ไมโครชีลด์</td>
+                                <td class="px-6 py-4"><span class="px-2 py-1 rounded text-xs bg-blue-100 text-blue-800">ทางใบ (ชุดเสริม)</span></td>
+                                <td class="px-6 py-4 text-brand-700 font-bold">200 ซีซี</td>
+                                <td class="px-6 py-4 text-xs">เคลือบและปกป้องผิวเซลล์พืชจากสิ่งแวดล้อม เสริมสร้างภูมิคุ้มกัน</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition">
+                                <td class="px-6 py-4">9</td>
+                                <td class="px-6 py-4"><img src="https://lh3.googleusercontent.com/d/1PJA2YJpLw0GhKTm-wYo4GAf9-QkX7wWq" class="h-10 w-10 object-contain rounded border bg-slate-50" alt="ลูกหนามจัน 5-7-7" onerror="this.src='https://placehold.co/40'"></td>
+                                <td class="px-6 py-4 text-slate-900 font-semibold">ลูกหนามจัน 5-7-7</td>
+                                <td class="px-6 py-4"><span class="px-2 py-1 rounded text-xs bg-amber-100 text-amber-800">ทางดิน (บำรุงราก)</span></td>
+                                <td class="px-6 py-4 text-brand-700 font-bold">1 กิโลกรัม / ต้น</td>
+                                <td class="px-6 py-4 text-xs">หว่านรอบทรงพุ่มเพื่อเร่งการขยายแผ่ของดินโปร่งและเปิดรากใหม่</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition">
+                                <td class="px-6 py-4">10</td>
+                                <td class="px-6 py-4"><img src="https://lh3.googleusercontent.com/d/1zRT7i7ECJv-5vwA8b5spW7Rz11vohtZw" class="h-10 w-10 object-contain rounded border bg-slate-50" alt="S-FORCX 100" onerror="this.src='https://placehold.co/40'"></td>
+                                <td class="px-6 py-4 text-slate-900 font-semibold">S-FORCX 100</td>
+                                <td class="px-6 py-4"><span class="px-2 py-1 rounded text-xs bg-amber-100 text-amber-800">ทางดิน (บำรุงราก)</span></td>
+                                <td class="px-6 py-4 text-brand-700 font-bold">100 - 250 กรัม / ไร่</td>
+                                <td class="px-6 py-4 text-xs">ฮิวมิก-ฟุลวิกเข้มข้น ปรับโครงสร้างดิน ปลดปล่อยธาตุอาหารตกค้าง</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition">
+                                <td class="px-6 py-4">11</td>
+                                <td class="px-6 py-4"><img src="https://lh3.googleusercontent.com/d/1BjKOORHcQ5bcdDfhXHhLDm-4NsCvorMb" class="h-10 w-10 object-contain rounded border bg-slate-50" alt="ทิพย์พฤกษ์-แมกซัลเฟต" onerror="this.src='https://placehold.co/40'"></td>
+                                <td class="px-6 py-4 text-slate-900 font-semibold">ทิพย์พฤกษ์-แมกซัลเฟต</td>
+                                <td class="px-6 py-4"><span class="px-2 py-1 rounded text-xs bg-amber-100 text-amber-800">ทางดิน (บำรุงราก)</span></td>
+                                <td class="px-6 py-4 text-brand-700 font-bold">3 ขีด / ต้น</td>
+                                <td class="px-6 py-4 text-xs">ป้อนแมกนีเซียมและกำมะถันสู่ราก เพื่อรักษาสีใบเขียวเข้มระยะยาว</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact & Community Section (Matching image_49a101.png layout) -->
-    <section class="py-16 bg-slate-100 border-t border-slate-200">
+    <!-- Social Link Contact Cards (Matching image_49a101.png exactly) -->
+    <section class="py-12 bg-slate-100 border-t border-slate-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto mb-12">
-                <span class="text-xs font-bold text-brand-600 tracking-wider uppercase bg-brand-100 px-3 py-1.5 rounded-full">Community & Contact</span>
-                <h2 class="text-xl sm:text-2xl font-bold mt-3 text-slate-800 leading-relaxed">
-                    “ติดตามสาระดีๆการปลูกทุเรียนและการใช้ผลิตภัณฑ์ได้ที่”
-                </h2>
+            <div class="text-center mb-10">
+                <span class="text-xs font-bold text-slate-500 uppercase tracking-wider block">ช่องทางการสื่อสารและการเรียนรู้</span>
+                <h3 class="text-2xl font-bold mt-1 text-slate-800">ติดตามสาระดีๆการปลูกทุเรียนและการใช้ผลิตภัณฑ์ได้ที่</h3>
             </div>
-
-            <!-- 4 Column Grid of Premium Social Cards matching image_49a101.png -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                
-                <!-- Facebook Card -->
-                <a href="https://www.facebook.com/groups/159157714503728/" target="_blank" rel="noopener noreferrer" class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 flex flex-col items-center text-center group">
-                    <div class="w-24 h-24 mb-4 flex items-center justify-center bg-slate-50 rounded-xl p-1 border border-slate-100">
-                        <img src="https://lh3.googleusercontent.com/d/1RLHv5ShcukhRnXQr7isV26J5bhNS704e" class="w-full h-full object-contain rounded-lg" alt="Facebook QR" onerror="this.src='https://placehold.co/96?text=FB+QR'">
-                    </div>
-                    <span class="text-[11px] font-bold text-blue-600 uppercase tracking-widest block mb-2">กลุ่ม PAGE FACEBOOK</span>
-                    <h4 class="font-bold text-slate-900 text-sm leading-snug group-hover:text-blue-600 transition-colors">
-                        ใส่ปุ๋ยให้ถูกพืชก็งาม by อ.ภพ Pobsak Panasrithong
-                    </h4>
-                    <p class="text-[11px] text-slate-500 mt-3 leading-relaxed">
-                        ที่มีเกษตรและผู้ติดตามมากกว่า 200,000 คน
-                    </p>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Facebook Page Card -->
+                <a href="https://www.facebook.com/groups/159157714503728/" target="_blank" class="block bg-white rounded-2xl border border-slate-200 p-6 text-center hover:-translate-y-1 hover:shadow-md transition-all duration-300">
+                    <img src="https://drive.google.com/thumbnail?id=1RLHv5ShcukhRnXQr7isV26J5bhNS704e&sz=w200" class="w-24 h-24 mx-auto object-contain mb-4" alt="Page Facebook QR" onerror="this.src='https://placehold.co/100?text=Facebook+QR'">
+                    <span class="block text-xs font-bold text-blue-600 uppercase tracking-wider mb-1">กลุ่ม PAGE FACEBOOK</span>
+                    <h4 class="font-bold text-slate-900 text-sm leading-tight">ใส่ปุ๋ยให้ถูกพืชก็งาม by อ.ภพ Pobsak Panasrithong</h4>
+                    <p class="text-[11px] text-slate-500 mt-2">ที่มีเกษตรและผู้ติดตามมากกว่า 200,000 คน</p>
                 </a>
 
-                <!-- LINE Card -->
-                <a href="https://line.me/ti/g2/I7FoCIyNFx5P3g3duDjoq9AYF4OYvE6ZERNBfQ?utm_source=invitation&utm_medium=QR_code&utm_campaign=default" target="_blank" rel="noopener noreferrer" class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 flex flex-col items-center text-center group">
-                    <div class="w-24 h-24 mb-4 flex items-center justify-center bg-slate-50 rounded-xl p-1 border border-slate-100">
-                        <img src="https://lh3.googleusercontent.com/d/1YXN-nFR6zKg2GFaz5oSkhikrVWJ7kdDG" class="w-full h-full object-contain rounded-lg" alt="LINE QR" onerror="this.src='https://placehold.co/96?text=LINE+QR'">
-                    </div>
-                    <span class="text-[11px] font-bold text-emerald-600 uppercase tracking-widest block mb-2">กลุ่ม LINE OPENCHAT</span>
-                    <h4 class="font-bold text-slate-900 text-sm leading-snug group-hover:text-emerald-600 transition-colors">
-                        ปุ๋ยอ.ภพ #ทุเรียนคุณภาพ
-                    </h4>
-                    <p class="text-[11px] text-slate-500 mt-3 leading-relaxed">
-                        กลุ่มคนปลูกทุเรียนแนวทางปุ๋ยอ.ภพ
-                    </p>
+                <!-- LINE OpenChat Card -->
+                <a href="https://line.me/ti/g2/I7FoCIyNFx5P3g3duDjoq9AYF4OYvE6ZERNBfQ?utm_source=invitation&utm_medium=QR_code&utm_campaign=default" target="_blank" class="block bg-white rounded-2xl border border-slate-200 p-6 text-center hover:-translate-y-1 hover:shadow-md transition-all duration-300">
+                    <img src="https://drive.google.com/thumbnail?id=1YXN-nFR6zKg2GFaz5oSkhikrVWJ7kdDG&sz=w200" class="w-24 h-24 mx-auto object-contain mb-4" alt="Line OpenChat QR" onerror="this.src='https://placehold.co/100?text=Line+QR'">
+                    <span class="block text-xs font-bold text-emerald-600 uppercase tracking-wider mb-1">กลุ่ม LINE OPENCHAT</span>
+                    <h4 class="font-bold text-slate-900 text-sm leading-tight">ปุ๋ยอ.ภพ #ทุเรียนคุณภาพ</h4>
+                    <p class="text-[11px] text-slate-500 mt-2">กลุ่มคนปลูกทุเรียนแนวทางปุ๋ยอ.ภพ</p>
                 </a>
 
                 <!-- TikTok Card -->
-                <a href="https://vt.tiktok.com/ZSAUQpRvp/" target="_blank" rel="noopener noreferrer" class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 flex flex-col items-center text-center group">
-                    <div class="w-24 h-24 mb-4 flex items-center justify-center bg-slate-50 rounded-xl p-1 border border-slate-100">
-                        <img src="https://lh3.googleusercontent.com/d/1UpIhngztxhMNWHKsph_qgYuUQDbmESVc" class="w-full h-full object-contain rounded-lg" alt="TikTok QR" onerror="this.src='https://placehold.co/96?text=TikTok+QR'">
-                    </div>
-                    <span class="text-[11px] font-bold text-slate-700 uppercase tracking-widest block mb-2">TIKTOK @METALPOB</span>
-                    <h4 class="font-bold text-slate-900 text-sm leading-snug group-hover:text-slate-700 transition-colors">
-                        อ.ภพ ปุ๋ยทุเรียน / พลังเมทัล
-                    </h4>
-                    <p class="text-[11px] text-slate-500 mt-3 leading-relaxed">
-                        ติดตามเรื่องราวน่ารู้การปลูกทุเรียน
-                    </p>
+                <a href="https://vt.tiktok.com/ZSAUQpRvp/" target="_blank" class="block bg-white rounded-2xl border border-slate-200 p-6 text-center hover:-translate-y-1 hover:shadow-md transition-all duration-300">
+                    <img src="https://drive.google.com/thumbnail?id=1UpIhngztxhMNWHKsph_qgYuUQDbmESVc&sz=w200" class="w-24 h-24 mx-auto object-contain mb-4" alt="TikTok QR" onerror="this.src='https://placehold.co/100?text=TikTok+QR'">
+                    <span class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">TIKTOK @METALPOB</span>
+                    <h4 class="font-bold text-slate-900 text-sm leading-tight">อ.ภพ ปุ๋ยทุเรียน / พลังเมทัล</h4>
+                    <p class="text-[11px] text-slate-500 mt-2">ติดตามเรื่องราวน่ารู้การปลูกทุเรียน</p>
                 </a>
 
                 <!-- Youtube Card -->
-                <a href="https://www.youtube.com/@ajarnpobsak1613" target="_blank" rel="noopener noreferrer" class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 flex flex-col items-center text-center group">
-                    <div class="w-24 h-24 mb-4 flex items-center justify-center bg-slate-50 rounded-xl p-1 border border-slate-100">
-                        <img src="https://lh3.googleusercontent.com/d/1JQngZpyaBDyKNqRjnWwNtBMtJi2YsfLF" class="w-full h-full object-contain rounded-lg" alt="Youtube QR" onerror="this.src='https://placehold.co/96?text=YT+QR'">
-                    </div>
-                    <span class="text-[11px] font-bold text-red-600 uppercase tracking-widest block mb-2">YOUTUBE @AJARNPOBSAK1613</span>
-                    <h4 class="font-bold text-slate-900 text-sm leading-snug group-hover:text-red-600 transition-colors">
-                        อ.ภพ ปุ๋ยทุเรียน / พลังเมทัล
-                    </h4>
-                    <p class="text-[11px] text-slate-500 mt-3 leading-relaxed">
-                        ติดตามเรื่องราวน่ารู้การปลูกทุเรียน
-                    </p>
+                <a href="https://www.youtube.com/@ajarnpobsak1613" target="_blank" class="block bg-white rounded-2xl border border-slate-200 p-6 text-center hover:-translate-y-1 hover:shadow-md transition-all duration-300">
+                    <img src="https://drive.google.com/thumbnail?id=1JQngZpyaBDyKNqRjnWwNtBMtJi2YsfLF&sz=w200" class="w-24 h-24 mx-auto object-contain mb-4" alt="Youtube QR" onerror="this.src='https://placehold.co/100?text=Youtube+QR'">
+                    <span class="block text-xs font-bold text-red-600 uppercase tracking-wider mb-1">YOUTUBE @AJARNPOBSAK1613</span>
+                    <h4 class="font-bold text-slate-900 text-sm leading-tight">อ.ภพ ปุ๋ยทุเรียน / พลังเมทัล</h4>
+                    <p class="text-[11px] text-slate-500 mt-2">ติดตามเรื่องราวน่ารู้การปลูกทุเรียน</p>
                 </a>
-
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="bg-slate-900 text-slate-500 py-10 text-center text-xs border-t border-slate-800">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
-            <div class="flex justify-center items-center gap-2 text-green-400 text-sm font-bold">
-                <i class="fa-solid fa-seedling"></i>
-                <span>ปุ๋ยอ.ภพ ชุดที่ 1 ฟื้นต้น</span>
-            </div>
-            <p>© 2026 โปรแกรมจัดการฟื้นฟูสภาพต้นพืชเชิงลึกแบบครบชุด สงวนลิขสิทธิ์ความรู้เกษตรกรรมร่วมสมัย อ.ภพ</p>
+    <!-- Footer Segment (Matching requests) -->
+    <footer class="bg-slate-900 text-white py-8 border-t border-slate-800 text-center text-sm font-medium">
+        <div class="max-w-7xl mx-auto px-4">
+            <p class="text-slate-400">© 2026 ปุ๋ยอ.ภพ ชุดที่ 1 ฟื้นต้น. สงวนลิขสิทธิ์ทั้งหมดตามหลักวิทยาศาสตร์เกษตรไทย</p>
+            <p class="text-xs text-slate-500 mt-1">มุ่งเน้นการฟื้นฟูสภาพต้นไม้อย่างถูกต้อง เพื่อผลผลิตทุเรียนพรีเมียมอย่างยั่งยืน</p>
         </div>
     </footer>
 
-    <!-- Floating LINE Contact Button (Updated to stack icon on top and text on bottom) -->
+    <!-- Vertical Floating Line CTA Button -->
     <div class="fixed bottom-6 right-6 z-50 animate-float">
-        <a href="https://line.me/ti/p/~@tippruksa" target="_blank" rel="noopener noreferrer" class="flex flex-col items-center justify-center gap-1 bg-[#06C755] hover:bg-[#05b34c] text-white py-3 px-4 w-28 sm:w-32 rounded-2xl shadow-[0_10px_25px_rgba(6,199,85,0.45)] transition-all duration-300 hover:scale-105 active:scale-95 group border border-emerald-400/20 text-center">
-            <i class="fa-brands fa-line text-3xl sm:text-4xl text-white group-hover:rotate-12 transition-transform"></i>
-            <span class="text-[10px] sm:text-xs font-black tracking-wide leading-tight">สั่งซื้อผลิตภัณฑ์</span>
+        <a href="https://line.me/ti/p/~@tippruksa" target="_blank" class="flex flex-col items-center justify-center p-3 w-28 bg-[#06C755] hover:bg-[#05b04b] text-white rounded-2xl shadow-2xl transition duration-300 border border-[#04a044]">
+            <i class="fa-brands fa-line text-4xl mb-1 drop-shadow-md"></i>
+            <span class="text-[11px] font-black tracking-tight drop-shadow text-center leading-none">สั่งซื้อผลิตภัณฑ์</span>
         </a>
     </div>
 
-    <!-- INTERACTIVE JAVASCRIPT LOGIC -->
+    <!-- Client Script logics -->
     <script>
-        // Interactive Products Filtering System
-        function filterProducts(category) {
-            // Update filter buttons style
-            document.querySelectorAll('.filter-btn').forEach(btn => {
-                btn.className = "filter-btn px-4 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-lg transition-all";
-            });
-            document.getElementById(`filter-${category}`).className = "filter-btn px-4 py-2 bg-brand-600 text-white rounded-lg transition-all shadow-md";
+        // Tab switching function for dual product image previews
+        function toggleProductImage(prodId, viewType, imgUrl) {
+            const imgElement = document.getElementById(`prod-img-${prodId}`);
+            if (imgElement) {
+                imgElement.src = imgUrl;
+            }
+            
+            // Toggle active classes on action tabs
+            const btnBottle = document.getElementById(`tab-${prodId}-bottle`);
+            const btnSubstance = document.getElementById(`tab-${prodId}-substance`);
+            
+            if (viewType === 'bottle') {
+                if (btnBottle) {
+                    btnBottle.classList.remove('bg-white/95', 'text-slate-700');
+                    btnBottle.classList.add('bg-brand-600', 'text-white');
+                }
+                if (btnSubstance) {
+                    btnSubstance.classList.remove('bg-brand-600', 'text-white');
+                    btnSubstance.classList.add('bg-white/95', 'text-slate-700');
+                }
+            } else {
+                if (btnBottle) {
+                    btnBottle.classList.remove('bg-brand-600', 'text-white');
+                    btnBottle.classList.add('bg-white/95', 'text-slate-700');
+                }
+                if (btnSubstance) {
+                    btnSubstance.classList.remove('bg-white/95', 'text-slate-700');
+                    btnSubstance.classList.add('bg-brand-600', 'text-white');
+                }
+            }
+        }
 
-            // Hide/Show items with smooth transitions
+        // Product category filtering trigger logic
+        function filterProducts(category) {
             const items = document.querySelectorAll('.product-item');
+            const btns = document.querySelectorAll('.filter-btn');
+            
+            btns.forEach(btn => {
+                btn.classList.remove('bg-brand-600', 'text-white', 'shadow-md');
+                btn.classList.add('bg-slate-100', 'text-slate-700');
+            });
+            
+            const activeBtn = document.getElementById(`filter-${category}`);
+            if (activeBtn) {
+                activeBtn.classList.remove('bg-slate-100', 'text-slate-700');
+                activeBtn.classList.add('bg-brand-600', 'text-white', 'shadow-md');
+            }
+            
             items.forEach(item => {
                 if (category === 'all' || item.getAttribute('data-category') === category) {
                     item.style.display = 'block';
-                    setTimeout(() => { item.style.opacity = '1'; }, 50);
                 } else {
-                    item.style.opacity = '0';
-                    setTimeout(() => { item.style.display = 'none'; }, 200);
+                    item.style.display = 'none';
                 }
             });
-        }
-
-        // Toggle function to switch between packaging (bottle/bag) and substance looks
-        function toggleProductImage(productId, mode, imgUrl) {
-            const imgElement = document.getElementById(`prod-img-${productId}`);
-            const bottleTab = document.getElementById(`tab-${productId}-bottle`);
-            const subTab = document.getElementById(`tab-${productId}-substance`);
-
-            if (imgElement) {
-                imgElement.style.opacity = '0.3';
-                setTimeout(() => {
-                    imgElement.src = imgUrl;
-                    imgElement.style.opacity = '1';
-                }, 150);
-            }
-
-            if (mode === 'bottle') {
-                bottleTab.className = "px-2.5 py-1 text-[10px] sm:text-[11px] font-bold rounded-full bg-brand-600 text-white shadow-md transition-all";
-                subTab.className = "px-2.5 py-1 text-[10px] sm:text-[11px] font-bold rounded-full bg-white/95 text-slate-700 hover:bg-white shadow-md transition-all";
-            } else {
-                subTab.className = "px-2.5 py-1 text-[10px] sm:text-[11px] font-bold rounded-full bg-brand-600 text-white shadow-md transition-all";
-                bottleTab.className = "px-2.5 py-1 text-[10px] sm:text-[11px] font-bold rounded-full bg-white/95 text-slate-700 hover:bg-white shadow-md transition-all";
-            }
         }
     </script>
 </body>
